@@ -1,0 +1,27 @@
+body{
+    background-color: blueviolet;
+}
+
+.puntaje{
+    margin-top: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.item{
+    background-color: antiquewhite;
+    width: 50px;
+    height: 45px;
+    cursor: pointer;
+    -webkit-mask-image: url("../img/estrella___76653bf2b6c231d___.svg");
+    mask-image: url("../img/estrella___76653bf2b6c231d___.svg");
+}
+
+/* clase adicional */
+
+.item.selec{
+    background-color: aqua;
+}
+
+
